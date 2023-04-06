@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="ood7_dyl:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ood7_dyl_jar</output-path>
+    <root id="archive" name="ood7_dyl.jar">
+      <element id="module-output" name="ood7_dyl" />
+      <element id="library" level="project" name="hw6" />
+    </root>
+  </artifact>
+</component>

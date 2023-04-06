@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - HTML For Dummies</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<main id='main-doc'>
+  <nav id="navbar">
+    <header>
+      <h1>HTML For Dummies</h1>
+    </header>
+    <a href="#Intro_to_HTML" class='nav-link'>Intro to HTML</a>
+    <a href="#HTML_Basics" class='nav-link'>HTML Basics</a>
+    <a href="#Headings" class='nav-link'>Headings</a>
+    <a href="#Paragraphs" class='nav-link'>Paragraphs</a>
+    <a href="#Anchors" class='nav-link'>Anchors</a>
+    <a href="#Images" class='nav-link'>Images</a>
+  </nav>
+  <section class='main-section' id="Intro_to_HTML">
+    <header>
+      <h2>Intro to HTML</h2>
+    </header>
+    <p>HTML is a markup language that defines the structure of your content. HTML consists of a series of elements, which you use to enclose, or wrap, different parts of the content to make it appear a certain way, or act a certain way. The enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make the font bigger or smaller, and so on.  For example, take the following line of content:</p><code> &lt;p&gt;I am a grumpy cat&lt;/p&gt;</code>.<p> I am using the p tag to identify the sentence as a paragraph.</p>
+    <img class="text-image" src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics/grumpy-cat-small.png">
+  </section>
+   <section class='main-section' id="HTML_Basics">
+     <header>
+       <h2>HTML Basics</h2>
+    </header>
+     <p>In HTML there are four major components that make up all markup:</p>
+       <ul>
+         <li>The opening tag: This consists of the name of the element (in this case, p), wrapped in opening and closing angle brackets. This states where the element begins or starts to take effect — in this case where the paragraph begins.</li>
+         <li>The closing tag: This is the same as the opening tag, except that it includes a forward slash before the element name. This states where the element ends — in this case where the paragraph ends. Failing to add a closing tag is one of the standard beginner errors and can lead to strange results.</li>
+         <li>The content: This is the content of the element, which in this case, is just text.</li>
+         <li>The element: The opening tag, the closing tag, and the content together comprise the element.</li>
+     </ul>
+     <p>Elements can also have attributes that look like the following:</p>
+     <img class='text-image' src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics/grumpy-cat-attribute-small.png">
+     <p>Attributes contain extra information about the element that you don't want to appear in the actual content. Here, <code>class</code> is the attribute name and <code>editor-note</code> is the attribute value. The <code>class</code> attribute allows you to give the element a non-unique identifier that can be used to target it (and any other elements with the same <code>class</code> value) with style information and other things.</p>
+
+       <p>An attribute should always have the following:</p>
+     <ul>
+       <li>A space between it and the element name (or the previous attribute, if the element already has one or more attributes).</li>
+       <li>The attribute name followed by an equal sign.</li>
+       <li>The attribute value wrapped by opening and closing quotation marks.</li>
+     </ul>
+  </section>
+    <section class='main-section' id="Headings">
+     <header>
+       <h2>Headings</h2>
+    </header>
+      <p>Heading elements allow you to specify that certain parts of your content are headings — or subheadings. In the same way that a book has the main title, chapter titles, and subtitles, an HTML document can too. HTML contains 6 heading levels, <code>&lth1&gt–&lt/h6&gt</code>, although you'll commonly only use 3 to 4 at most:</p>
+      <p><code>&lth1&gtMy main title&lt/h1&gt</p><br>
+      <p>&lth2&gtMy top level heading&lt/h2&gt</p><br>
+      <p>&lth3&gtMy subheading&lt/h3&gt</p><br>
+      <p> &lth4&gtMy sub-subheading&lt/h4&gt</p></code>
+  </section>
+   <section class='main-section' id="Paragraphs">
+     <header>
+       <h2>Paragraphs</h2>
+     </header>
+     <p>As explained above, <code>&ltp&gt</code> elements are for containing paragraphs of text; you'll use these frequently when marking up regular text content:</p>
+     <p><code>&ltp&gtThis is a single paragraph&lt/p&gt</code></p>
+  </section>
+   <section class='main-section' id="Anchors">
+     <header>
+       <h2>Anchors</h2>
+    </header>
+     <p>Links are very important — they are what makes the web a web! To add a link, we need to use a simple element — <code>&lta&gt</code> — "a" being the short form for "anchor". To make text within your paragraph into a link, follow these steps:</p>
+     <ul>
+       <li>Choose some text. We chose the text "Mozilla Manifesto".</li>
+       <li>Wrap the text in an <code>&lta&gt</code> element</li>
+       <li>Give the <code>&lta&gt</code> element an href attribute</li>
+       <li>Fill in the value of this attribute with the web address that you want the link to link to</li>
+     </ul>
+  </section>
+   <section class='main-section' id="Images">
+     <header>
+       <h2>Images</h2>
+    </header>
+     <p>To use image as a link in HTML, use the <img> tag as well as the <code>&lta&gt</code> tag with the href attribute. The <code>&ltimg&gt</code> tag is for using an image in a web page and the <code>&lta&gt</code> tag is for adding a link. Under the image tag src attribute, add the URL of the image. With that, also add the height and width.</p>
+  <img src="https://www.tutorialspoint.com/assets/questions/images/103672-1516256385.jpg">
+  </section>
+  <footer>
+    <p>This information used in this project is fully credited to <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">MDN Dogs's Website</a>.</p>
+  </footer>
+</main>
+<!-- partial -->
+  
+</body>
+</html>

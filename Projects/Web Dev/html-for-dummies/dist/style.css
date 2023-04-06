@@ -1,0 +1,38 @@
+body {
+  background:url("https://thumbs.dreamstime.com/b/white-blue-trangles-abstract-brilliance-background-poligonal-subtle-pattern-light-geometric-texture-best-159923190.jpg")
+}
+#navbar {
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+  align-items:flex-start;
+  float:left;
+  outline:2px solid black;
+  position:relative;
+  top:-19px;
+  left:-7px;
+}
+.nav-link{
+  text-decoration:none;
+  border-top: 1px solid black;
+  padding:10px;
+  color:black;
+  font-size:30px;
+  font-family:monospace;
+  display: inline-block;
+}
+.main-section{
+  text-align:left;
+  
+}
+code{
+  background:silver;
+  font-size:15px;
+}
+.text-image{
+  width:200px;
+  height:40px;
+}
+ul{
+  font-style:italics;
+}

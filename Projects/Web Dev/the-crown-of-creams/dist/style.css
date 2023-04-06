@@ -1,0 +1,50 @@
+body {
+    background: url(https://wallpaperaccess.com/full/240307.jpg);
+  }
+#back {
+  display: block;
+  text-align: left;
+  margin:auto;
+  width:1000px;
+  height:1000px;
+  background: pink;
+  opacity:0.9;
+}
+#survey-form {
+  display:flex;
+  flex-direction:column;
+  justify-content: space-around;
+  align-items: ;
+ 
+}
+#title {
+  color: white;
+  text-align: center;
+}
+#description {
+  color: white;
+  text-align:center;
+}
+#name-label {
+  color: white;
+  font-size: 20px;
+} 
+#email-label {
+  color: white;
+  font-size: 20px;
+} 
+#number-label {
+  color: white;
+  font-size: 20px;
+} 
+#skill-level-label {
+  color: white;
+  font-size: 20px;
+}
+legend {
+  color:white;
+  font-size: 20px;
+}
+#info {
+  color:white;
+}

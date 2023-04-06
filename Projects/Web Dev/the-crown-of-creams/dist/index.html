@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - The Crown Of Creams</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<h1 id="title">The Crown Of Creams</h1>
+<p id ="description">Choose wisely, which creamy delight shall claim victory?</p>
+<div id='back'>
+<form id="survey-form">
+  <label for='name' id="name-label">Name</label>
+  <br>
+  <input type='text' id="name" name='name' placeholder='Enter your name' required>
+  <br>
+  <label for="email" id='email-label'>Email</label>
+  <br>
+  <input type='email', id="email" name='email' placeholder='Enter your email' required>
+  <br>
+  <label for="number" id='number-label'>Age</label>
+  <br>
+  <input type='number' id='number' name='age' placeholder='Age' max='100' min ='1'>
+  <br>
+  <label for='skill-level' id='skill-level-label'> Select an ice-cream affinity level</label>
+  <br>
+  <select name='skill-level' id="dropdown">
+    <option value='novice'>Novice</option>
+    <option value='intermediate'>Tasted a couple flavors</option>
+    <option value='expert'>I have the ability to sense ice-cream</option>
+    <option value='master'>Ice-cream flows through my veins</option>
+  </select>
+  <br>
+  <fieldset>
+    <legend>Choose your favorite ice-cream flavor</legend>
+    <input type='radio' value='cookies-cream' name='flavor' id='cookies-cream'>
+    <label for='cookies-cream'>Cookies & Cream</label>
+    <br>
+    <input type='radio' value='strawberry' name='flavor' id='strawberry'>
+    <label for='strawberry'>Strawberry</label>
+    <br>
+    <input type='radio' value='chocolate' name='flavor' id='chocolate'>
+    <label for='chocolate'>Chocolate</label>
+    <br>
+    <input type='radio' value='vanilla' name='flavor' id='vanilla'>
+    <label for='vanilla'>Vanilla</label>
+    <br>
+    <input type='radio' value='mint' name='flavor' id='mint'>
+    <label for='mint'>Mint</label>
+    <br>
+    <input type='radio' value='coffee' name='flavor' id='coffee'>
+    <label for='coffee'>Coffee</label>
+    <br>
+    <input type='radio' value='butter-pecan' name='flavor' id='butter-pecan'>
+    <label for='butter-pecan'>Butter Pecan</label>
+    <br>
+    <input type='radio' value='rocky-road' name='flavor' id='rocky-road'>
+    <label for='rocky-road'>Rocky Road</label>
+    <br>
+    <input type='radio' value='pistachio' name='flavor' id='pistachio'>
+    <label for='pistachio'>Pistachio</label>
+    <br>
+    <input type='radio' value='neapolitan' name='flavor' id='neapolitan'>
+    <label for='neapolitan'>Neapolitan</label>  
+    <br>
+    <input type='radio' value='other' name='flavor' id='other'>
+    <label for='other'>Other</label>
+  </fieldset>
+  <br>
+  <fieldset>
+    <legend>Vote for the best garnish!</legend>
+    <input type='checkbox' name='garnish' id='sprinkles' value='sprinkles'>
+    <label for='sprinkles'>Sprinkles</label>
+    <br>
+    <input type='checkbox' name='garnish' id='caramel-sauce' value='caramel-sauce'>
+    <label for='caramel-sauce'>Caramel Sauce</label>
+    <br>
+    <input type='checkbox' name='garnish' id='blueberry-sauce' value='blueberry-sauce'>
+    <label for='blueberry-sauce'>Blueberry Sauce</label>
+    <br>
+    <input type='checkbox' name='garnish' id='butterscotch' value='butterscotch'>
+    <label for='buttterscotch'>Butterscotch</label>
+    <br>
+    <input type='checkbox' name='garnish' id='oreos' value='oreos'>
+    <label for='oreos'>Oreos</label>
+    <br>
+    <input type='checkbox' name='garnish' id='other' value='other'>
+    <label for='other'>Other</label>    
+  </fieldset>
+  <br>
+  <label for='comment' id='info'>If you selected other, please enter your responses here.</label>
+  <br>
+  <textarea id='comment' name="comment" form="survey-form" placeholder='Enter comment here'></textarea>
+  <br>
+  <input type='submit' name='submit' id='submit'>
+</form>
+</div>
+<!-- partial -->
+  
+</body>
+</html>

@@ -1,0 +1,43 @@
+#title {
+  text-align:center;
+  font-family: monospace, sans-serif;
+  font-size: 40px;
+  color: red;
+}
+.sub-head {
+  text-align: center;
+  font-family: monospace;
+  font-size: 20px;
+  color: red;
+}
+body {
+  background: url("https://besthqwallpapers.com/Uploads/13-2-2018/40504/flag-of-south-africa-4k-africa-wooden-texture-south-african-flag.jpg");
+}
+#image {
+  width: 500px;
+  height: 600px;
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+h2 {
+  text-align: center;  
+}
+#img-caption {
+  text-align: center;
+  color: black
+}
+
+#img-div {
+  background-color:#E5E4E2;
+}
+
+#tribute-info {
+  background-color: #7FFFD4;
+  color:;
+}
+
+#head {
+  background-color: #3BB9FF;
+}
